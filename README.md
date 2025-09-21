@@ -32,3 +32,20 @@ Install dependencies:
 
 ```bash
 pip install paramiko python-dotenv
+```
+
+Please create a .env file in the root directory with the following fields
+```bash
+# .env file for KindleSFTP
+
+# Kindle connection settings
+KINDLE_IP=XXX.XXX.X.XX
+KINDLE_USERNAME=your_username
+KINDLE_PASSWORD=your_password
+
+# Local folder where PDFs are stored
+SOURCE_FOLDER=/path/to/your/pdfs
+
+# Remote folder on Kindle where PDFs should be sent
+DEST_FOLDER=/documents
+
