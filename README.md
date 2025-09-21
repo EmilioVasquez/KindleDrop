@@ -40,6 +40,7 @@ Please create a .env file in the root directory with the following fields
 
 # Kindle connection settings
 KINDLE_IP=XXX.XXX.X.XX
+KINDLE_PORT=2222
 KINDLE_USERNAME=your_username
 KINDLE_PASSWORD=your_password
 
